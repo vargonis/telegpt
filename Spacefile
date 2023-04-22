@@ -1,15 +1,14 @@
 # Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
 v: 0
-icon: ./telespace.png
-app_name: Telemage
+icon: ./telegpt.png
+app_name: TeleGPT
 micros:
-  - name: tele-space
+  - name: telegpt
     src: .
     engine: python3.9
-    primary: true
+    run: uvicorn main:app
     public_routes:
       - '/open'
-    dev: 'make dev'
     presets:
       env:
         - name: TELEGRAM
