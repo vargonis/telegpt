@@ -5,7 +5,7 @@ theme_color: "#800080"
 git: "https://github.com/vargonis/telegpt"
 ---
 
-Your personal Telegram bot that uses GPT on Deta Space. Forked from [https://github.com/xeust/telespace](https://github.com/xeust/telespace)
+Your personal Telegram bot that uses OpenAI's Chat Completion on Deta Space. Built by straightforwardly modifying [https://github.com/xeust/telespace](https://github.com/xeust/telespace).
 
 ### Setup
 
@@ -20,6 +20,6 @@ You are now ready to use your Bot.
 ### Use
 
 Add your bot (via the Bot's username from step 1) as a contact in Telegram. Start messaging it to interact with it. 
-Note that chat history is not submitted to the OpenAI API. Thus, each message is answered to in a fully independent manner.
+Note that chat history is not submitted to the OpenAI API. Thus, each message is answered to in an independent (non-contextual) manner.
 
 Visit [https://github.com/vargonis/telegpt](https://github.com/vargonis/telegpt) for the source.
